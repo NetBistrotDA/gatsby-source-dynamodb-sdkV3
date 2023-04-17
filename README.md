@@ -21,7 +21,7 @@ Then add the config to your `gatsby-config.js`:
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-source-dynamodb',
+      resolve: '@netbistrot/gatsby-source-dynamodb-sdkv3',
       options: {
         typeName: '<INPUT_GRAPHQL_TYPE_NAME_HERE>',
         accessKeyId: '<AWS_ACCESS_KEY_ID>', 
