@@ -1,0 +1,30 @@
+{
+  "name": "@netbistrot/gatsby-source-dynamodb-sdkv3",
+  "version": "1.0.0",
+  "description": "gatsby plugin to connect aws dynamodb with v3 SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NetBistrotDA/gatsby-source-dynamodb-sdkV3.git"
+  },
+  "keywords": [
+    "gatbsy",
+    "SDKv3",
+    "aws",
+    "dynamodb",
+    "gatsby-plugin"
+  ],
+  "author": "netbistrot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NetBistrotDA/gatsby-source-dynamodb-sdkV3/issues"
+  },
+  "homepage": "https://github.com/NetBistrotDA/gatsby-source-dynamodb-sdkV3#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.312.0",
+    "@aws-sdk/lib-dynamodb": "^3.312.0"
+  }
+}
